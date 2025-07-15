@@ -21,7 +21,6 @@ app.post("/search", async (req, res) => {
                               "Content-Type": "application/json",
                               "User-Agent": "Mozilla/5.0",
                         },
-                        httpsAgent: agent,
                   }
             );
 
