@@ -32,4 +32,6 @@ app.post("/search", async (req, res) => {
       }
 });
 
-app.listen(3001, () => console.log("Proxy API listening on port 3001"));
+app.listen(3001, "0.0.0.0", () =>
+      console.log("Proxy API listening on port 3001")
+);
